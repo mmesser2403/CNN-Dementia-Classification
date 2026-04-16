@@ -23,18 +23,15 @@ Binary classification of MRI images into **Healthy** vs. **Mild Dementia** using
 
 | Accuracy | Loss |
 |---|---|
-| ![Accuracy](Accuracy.png) | ![Loss](loss.png) |
+| ![Accuracy](Results/Accuracy.png) | ![Loss](Results/loss.png) |
 
 ### Evaluation
 
 | Confusion Matrix | ROC Curve |
 |---|---|
-| ![Confusion Matrix](cnf_matrix.png) | ![ROC](auc.png) |
+| ![Confusion Matrix](Results/cnf_matrix.png) | ![ROC](Results/auc.png) |
 
-![Metrics](eval_metrics.png)
-
----
-
+![Metrics](Results/eval_metrics.png)
 ## Model Architecture
 
 - **Conv2D + MaxPooling2D** — 64 filters, 3×3 kernel, ReLU activation; 2×2 pooling to reduce spatial dimensions while retaining key features
